@@ -1,47 +1,21 @@
 # papers_notes
 # CVPR 2018 Notes
 
-Below are the links, notes and thoughts about the most interesting papers, challenges and workshops that I came across during the [CVPR 2018](http://cvpr2018.thecvf.com/) conference. Though, you probably may want to form your own notion of the progress in computer vision and pattern recognition by reviewing all 979 accepted papers and walking through the content of all 21 tutorials and 48 workshops:
+Below are the links, notes and thoughts about the most interesting medical papers, challenges and workshops that I came across. Though, you probably may want to form your own notion of the progress in medical imaging and computer vision by reviewing all recent accepted papers and walking through the content of all tutorials and related workshops:
 
-* [CVPR 2018 Papers](http://openaccess.thecvf.com/CVPR2018.py)
-* [CVPR 2018 Workshops Papers](http://openaccess.thecvf.com/CVPR2018_workshops/menu.py)
-* [CVPR 2018 Tutorials](http://cvpr2018.thecvf.com/program/tutorials)
-* [CVPR 2018 Workshops](http://cvpr2018.thecvf.com/program/workshops)
-
-NOTE: The categories and tags of the papers are very soft and often one paper can be in autonomous driving, 3D vision and graph-based related categories but I select one that to my best knowledge suits better and will be easier for me to find later.
-
-# Top Papers
-
-Best Paper Award:
-* __Taskonomy: Disentangling Task Transfer Learning.__ Amir R. Zamir, Alexander Sax, William Shen, Leonidas J. Guibas, Jitendra Malik, Silvio Savarese
-[[pdf]](http://openaccess.thecvf.com/content_cvpr_2018/papers/Zamir_Taskonomy_Disentangling_Task_CVPR_2018_paper.pdf)
-
-Honorable Mentions:
-* __Deep Learning of Graph Matching__.
-Andrei Zanfir, Cristian Sminchisescu
-[[pdf]](http://openaccess.thecvf.com/content_cvpr_2018/papers/Zanfir_Deep_Learning_of_CVPR_2018_paper.pdf)
-
-* __SPLATNet: Sparse Lattice Networks for Point Cloud Processing.__
-Hang Su, Varun Jampani, Deqing Sun, Subhransu Maji, Evangelos Kalogerakis, Ming-Hsuan Yang, Jan Kautz
-[[pdf]](http://openaccess.thecvf.com/content_cvpr_2018/papers/Su_SPLATNet_Sparse_Lattice_CVPR_2018_paper.pdf)
-[[code]](https://github.com/NVlabs/splatnet)
-
-* __CodeSLAM — Learning a Compact, Optimisable Representation for Dense Visual SLAM.__
-Michael Bloesch, Jan Czarnowski, Ronald Clark, Stefan Leutenegger, Andrew J. Davison
-[[pdf]](http://openaccess.thecvf.com/content_cvpr_2018/papers/Bloesch_CodeSLAM_--_Learning_CVPR_2018_paper.pdf)
-
-* __Efficient Optimization for Rank-Based Loss Functions__
-Pritish Mohapatra, Michal Rolínek, C.V. Jawahar, Vladimir Kolmogorov, M. Pawan Kumar
-[[pdf]](http://openaccess.thecvf.com/content_cvpr_2018/papers/Mohapatra_Efficient_Optimization_for_CVPR_2018_paper.pdf)
+NOTE: The categories and tags of the papers are very soft and often one paper can be in different topics but I select one that to my best knowledge suits better and will be easier for me to find later.
 
 
 
-# Autonomous Driving and related topics: Visual odometry, SLAM, Localization.
+# Weakly-Supervised Learning.
 
-Self-driving cars were one of the most noticeable topics at the conference with huge booth's on the expo floor from nuTonomy, Aurora, Tesla, Waymo, Didi, Argo.ai, Baidu, Lyft, Uber, NVidia. There were several workshops and challenges. Also it's one that I'm personally most interested in though it get's the biggest chunk of my conference time.
+Most current solutions to range of medical imaging tasks from segmentation to classification rely on methods based on convolutional neural networks (CNNs). With networks becoming ever more sophisticated, the main bottleneck now is the  availability of sufficiently large training datasets, which typically require a large annotation effort. Weakly-supervised methods that reduce the amount of annotation required to achieve a desired level of performance are therefore valuable.
 
+* [Iterative Attention Mining for Weakly Supervised Thoracic Disease Pattern Localization in Chest X-Rays](https://www.miccai2018.org/en/), [[papers]](http://www.cs.jhu.edu/%7Elelu/publication/MICCAI2018_ChestXRay_IAM.pdf)
 
-## Autonomous Driving Challenges
+* [DeepGlobe: A Challenge for Parsing the Earth through Satellite Images](	DeepGlobe: A Challenge for Parsing the Earth through Satellite Images), [[papers]](http://openaccess.thecvf.com/CVPR2018_workshops/CVPR2018_W4.py)
+
+## Generative Adversarial Networks (GANs)
 
 Challenges related to the autonomous driving at CVPR 2018:
 
@@ -80,8 +54,7 @@ Mentioned workshops and tutorials cover the most frequent topics related to the 
 * [Computational Imaging for Self-Driving Vehicles](http://imagingav.media.mit.edu/)
 * [Computer Vision for Robotics and Driving](https://sites.google.com/view/visionroboticsdriving)
 * [Deep Learning for Visual SLAM](http://visualslam.ai/), [[papers]](http://openaccess.thecvf.com/CVPR2018_workshops/CVPR2018_W9.py)
-* [Joint Detection, Tracking, and Prediction in the Wild](http://trajnet.stanford.edu/workshops/2018/), [[papers]](http://openaccess.thecvf.com/CVPR2018_workshops/CVPR2018_W29.py)
-* [DeepGlobe: A Challenge for Parsing the Earth through Satellite Images](	DeepGlobe: A Challenge for Parsing the Earth through Satellite Images), [[papers]](http://openaccess.thecvf.com/CVPR2018_workshops/CVPR2018_W4.py)
+
 
 
 
