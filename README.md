@@ -1,5 +1,5 @@
 # papers_notes
-# CVPR 2018 Notes
+
 
 Below are the links, notes and thoughts about the most interesting medical papers, challenges and workshops that I came across. Though, you probably may want to form your own notion of the progress in medical imaging and computer vision by reviewing all recent accepted papers and walking through the content of all tutorials and related workshops:
 
@@ -11,7 +11,9 @@ NOTE: The categories and tags of the papers are very soft and often one paper ca
 
 Most current solutions to range of medical imaging tasks from segmentation to classification rely on methods based on convolutional neural networks (CNNs). With networks becoming ever more sophisticated, the main bottleneck now is the  availability of sufficiently large training datasets, which typically require a large annotation effort. Weakly-supervised methods that reduce the amount of annotation required to achieve a desired level of performance are therefore valuable.
 
-* [Iterative Attention Mining for Weakly Supervised Thoracic Disease Pattern Localization in Chest X-Rays](https://www.miccai2018.org/en/), [[papers]](http://www.cs.jhu.edu/%7Elelu/publication/MICCAI2018_ChestXRay_IAM.pdf)
+
+* __Iterative Attention Mining for Weakly Supervised Thoracic Disease Pattern Localization in Chest X-Rays__. Jinzheng et al, [[pdf]](http://www.cs.jhu.edu/%7Elelu/publication/MICCAI2018_ChestXRay_IAM.pdf)
+(_MICCAI_, _2018_)
 
 * [DeepGlobe: A Challenge for Parsing the Earth through Satellite Images](	DeepGlobe: A Challenge for Parsing the Earth through Satellite Images), [[papers]](http://openaccess.thecvf.com/CVPR2018_workshops/CVPR2018_W4.py)
 
