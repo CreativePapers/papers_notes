@@ -12,7 +12,7 @@ NOTE: The categories and tags of the papers are very soft and often one paper ca
 Most current solutions to range of medical imaging tasks from segmentation to classification rely on methods based on convolutional neural networks (CNNs). With networks becoming ever more sophisticated, the main bottleneck now is the  availability of sufficiently large training datasets, which typically require a large annotation effort. Weakly-supervised methods that reduce the amount of annotation required to achieve a desired level of performance are therefore valuable.
 
 
-* __Iterative Attention Mining for Weakly Supervised Thoracic Disease Pattern Localization in Chest X-Rays__. Jinzheng et al, [[pdf]](http://www.cs.jhu.edu/%7Elelu/publication/MICCAI2018_ChestXRay_IAM.pdf)
+* `TODO` __Iterative Attention Mining for Weakly Supervised Thoracic Disease Pattern Localization in Chest X-Rays__. Jinzheng et al, [[pdf]](http://www.cs.jhu.edu/%7Elelu/publication/MICCAI2018_ChestXRay_IAM.pdf)
 (_MICCAI_, _2018_)
 
 
