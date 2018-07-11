@@ -11,6 +11,7 @@ This paper presents an approach to unsupervised domain adaptation for the task o
 that they can predict cardiomegaly from a dataset without segmentation annotations. The paper further illustrates how the  approach can be adapted for semi-supervised learning.
 
 ![GitHub Logo](https://github.com/CreativePapers/papers_notes/tree/master/summaries/images/network_diagram.png)
+<img src="https://github.com/CreativePapers/papers_notes/tree/master/summaries/images/network_diagram.png" width=800 /> ![](https://github.com/CreativePapers/papers_notes/tree/master/summaries/images/network_diagram.png)
 
 Traditional CNNs:
 - Stacked fully connected conv layers
