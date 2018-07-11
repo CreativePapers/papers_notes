@@ -20,10 +20,13 @@ Most current solutions to range of medical imaging tasks from segmentation to cl
 
 List of GAN papers in medical imaging  (https://github.com/xinario/awesome-gan-for-medical-imaging):
 
-* __Conditional Generative Adversarial and Convolutional Networks for X-ray Breast Mass Segmentation and Shape Classification__. Vivek Kumar et al, [[pdf]](https://arxiv.org/pdf/1805.10207.pdf)
+* `TODO` __Conditional Generative Adversarial and Convolutional Networks for X-ray Breast Mass Segmentation and Shape Classification__. Vivek Kumar et al, [[pdf]](https://arxiv.org/pdf/1805.10207.pdf)
 (_MICCAI_, _2018_)
 
-* __StainGAN: Stain Style Transfer for Digital Histological Images__. M Tarek Shaban et al, [[pdf]](https://arxiv.org/pdf/1804.01601.pdf)
+* `TODO` __StainGAN: Stain Style Transfer for Digital Histological Images__. M Tarek Shaban et al, [[pdf]](https://arxiv.org/pdf/1804.01601.pdf)
+(_MICCAI_, _2018_)
+
+* __Unsupervised Domain Adaptation for Automatic Estimation of Cardiothoracic Ratio__. Nanqing et al, [[pdf]](https://arxiv.org/pdf/1807.03434.pdf)
 (_MICCAI_, _2018_)
 
 
