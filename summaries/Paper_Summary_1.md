@@ -10,7 +10,7 @@
 This paper presents an approach to unsupervised domain adaptation for the task of CTR estimation that is based on the intuition that prediction masks should be domain independent. Using an adversarial training approach, they show
 that they can predict cardiomegaly from a dataset without segmentation annotations. The paper further illustrates how the  approach can be adapted for semi-supervised learning.
 
-![GitHub Logo](https://github.com/CreativePapers/papers_notes/tree/master/summaries/images/network_diagram.png)
+Network Diagram:
 <img src="https://github.com/CreativePapers/papers_notes/tree/master/summaries/images/network_diagram.png" width=800 /> ![](https://github.com/CreativePapers/papers_notes/tree/master/summaries/images/network_diagram.png)
 
 Traditional CNNs:
