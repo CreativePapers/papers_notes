@@ -1,4 +1,4 @@
-# Going deeper with convolutions
+# Unsupervised Domain Adaptation for Automatic Estimation of Cardiothoracic Ratio
 
 * Link to paper: [https://arxiv.org/pdf/1807.03434.pdf](https://arxiv.org/pdf/1807.03434.pdf)
 * Paper Accepted: MICCAI 2018
