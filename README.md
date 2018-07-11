@@ -26,8 +26,10 @@ List of GAN papers in medical imaging  (https://github.com/xinario/awesome-gan-f
 * `TODO` __StainGAN: Stain Style Transfer for Digital Histological Images__. M Tarek Shaban et al, [[pdf]](https://arxiv.org/pdf/1804.01601.pdf)
 (_MICCAI_, _2018_)
 
-* __Unsupervised Domain Adaptation for Automatic Estimation of Cardiothoracic Ratio__. Nanqing et al, [[pdf]](https://arxiv.org/pdf/1807.03434.pdf)
+* __Unsupervised Domain Adaptation for Automatic Estimation of Cardiothoracic Ratio__. Nanqing et al, [[pdf]](https://arxiv.org/pdf/1807.03434.pdf) [Paper Summary](summaries/Overfeat.md)
 (_MICCAI_, _2018_)
+
+
 
 
 
