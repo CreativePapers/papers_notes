@@ -11,30 +11,14 @@ This paper presents an approach to unsupervised domain adaptation for the task o
 that they can predict cardiomegaly from a dataset without segmentation annotations. The paper further illustrates how the  approach can be adapted for semi-supervised learning.
 
 Network Diagram:
+Illustration of the architecture. In our proposed adversarial training procedure, the segmentor produces segmentations for the input images and the discriminator attempts to distinguish these predictions from ground truth annotations. A post-processing step (bottom part of figure) is used to predict cardiomegaly based on the predicted lung segmentation masks.
+
 <img src="/summaries/images/network_diagram.png" width="800" /> ![](https://github.com/CreativePapers/papers_notes/tree/master/summaries/images/network_diagram.png)
 
 
 
 Traditional CNNs:
-- Stacked fully connected conv layers
-- 
-- 
-
-The way to increase accuracy is to go deeper and wider. But:
-- increases memory and computation (linear increase in filters lead to quadradic increase in compute)
-- needs more data
-- 
-
-GoogLeNet
-- 
-12x less parameters than AlexNet. Lower memory use, lower power use. More accurate than AlexNet. 1.5 billion add/mul;tiply.
-- 2x less computation wrt AlexNet
-
-Inspiration
-
-
-
-
-
-
+- ResNet18 has been used as a backbone architecture .
+- The discriminator is a standard ResNet classifier and the segmentor is inspired by the Fully Convolutional Network (FCN) , but uses an output stride of 16,
+- Provided the predicted labels for the two lungs, the CTR is calculated in a post-processing step.
 
